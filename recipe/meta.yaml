@@ -42,6 +42,11 @@ about:
   license_family: Other
   license_file: LICENSE.md
   summary: zlib data compression library for the next generation systems
+  description: |
+    The idea of zlib-ng is not to replace zlib,
+    but to co-exist as a drop-in replacement with a lower threshold for code change.
+  doc_url: https://github.com/zlib-ng/zlib-ng
+  dev_url: https://github.com/zlib-ng/zlib-ng
 
 extra:
   recipe-maintainers:
