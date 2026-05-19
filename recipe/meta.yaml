@@ -19,7 +19,9 @@ build:
 
 requirements:
   build:
+    - {{ compiler('cxx') }}
     - {{ compiler('c') }}
+    - {{ stdlib('c') }}
     - cmake
     - make  # [unix]
   host:
